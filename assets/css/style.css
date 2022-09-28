@@ -1,0 +1,355 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+ 
+.Header{
+
+    background-color: #f5f7fa;
+}
+
+.icon-list li{
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: capitalize;
+    
+}
+.offset-2{
+    margin-left: calc(100% * 2/12);
+}
+
+.offset-3{
+    margin-left: calc(100% * 3/12);
+}
+
+
+
+.sub-header{
+    padding : 34 0px;
+}
+
+.header-logo{
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.search-icon{
+    display: inline-block;
+    
+
+}
+
+.offset-1{
+    margin-left : calc(100 * 1/12)
+}
+
+.offset-4{
+    margin-right : calc(100 * 4/12)
+}
+
+
+.hero-Img{
+    padding: 300px 0px;
+    background-image: url(../images/hero-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment : fixed;
+    background-position: center center;
+    margin-bottom: 130px;
+
+}  
+
+
+
+.head-1{
+    margin: 10px;
+    font-size: 78px;
+    color: #ffffff;
+
+}
+.para{
+    color: #798b9e;
+    padding-top: 35px;
+    font-size: 22px;
+}
+
+.btn-primary{
+    background-color : #00bc9c;
+    border-radius: 5px;
+    width: 300px;
+    height: 70px;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 70px;
+    cursor: pointer;
+    border-radius: 5px;
+    border : 2px solid #00bc9c;
+    color: #fff;
+
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    color:#00bc9c;
+    background-color: #ffffff;
+}
+
+/* ........................responsive sec....................... */
+ 
+.Responsive-Sec{
+    background-color: #fff;
+
+}
+
+.Responsive-Sec h2{
+    margin-top: 10px;
+    color: #506a85;
+    font-size: 44px;
+   
+    
+}
+
+.Responsive-Sec p{
+    margin-top: 35px;
+    color: #73879c;
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
+.thumbnail i{
+    font-size: 50px;
+    color: #00bc9c;
+}
+
+.thumbnail h3{
+    font-size: 26px;
+    color: #506a85;
+}
+
+.thumbnail p{
+    font-size: 16px;
+    color: #73879c;
+}
+
+/* .............................. .CheakOut-Sec....................... */
+
+
+.CheakOut-Sec{
+    background-color: #f2f5f7;
+}
+.CheakOut-Sec h2{
+    font-size: 44px;
+    color: #666699;
+}
+
+
+.circle{
+    font-size: 120px;
+    text-align: center;
+}
+
+.circle ul li{
+    display: inline-block;
+}
+
+.circle ul :first-child{
+    color: #666699;
+}
+
+.lisec{
+    color: #00cc99;
+}
+.circle ul :last-child{
+    color: #666699;
+    margin-bottom: 140px;
+}
+
+.hd{
+    color: #999;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.info{
+    background-color: #fff;
+    width: 570px;
+}
+
+/* GET IN TOUCH SECTION */
+
+
+
+
+.Get-Touch h1{
+   font-size: 44px;
+   margin-bottom: 50px;
+   color: #666699;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.Get-Touch p{
+    font-size: 22px;
+   margin-bottom: 50px;
+   color: #669999;
+}
+
+.Get-Touch .btn-2{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #00cc99;
+    border: 2px solid gray;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 130px;
+
+}
+
+.btn-2:hover, .btn-2:focus, .btn-2:active{
+    color:#00bc9c;
+    background-color: #ffffff;
+}
+
+
+/* ....................footer-section....................... */
+.footer{
+    background-color: #333366;
+}
+
+
+.footer .head{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #fff
+}
+
+#img{
+    margin-bottom: 25px;
+}
+
+.footer p{
+    margin-bottom: 25px;
+    color: #9999cc;
+}
+
+.footer a{
+    font-size: 15px;
+    color: #9999cc;
+    
+
+}
+.arrow{
+    margin-left: 10px;
+
+}
+
+
+.head-5{
+    color:#fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+#para{
+    font-size: 14px;
+    color: #9999cc;
+}
+
+.footer input {
+    padding: 12px 0px 12px 12px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #4e5c6b;
+    width: 100%;
+    /* height: 45px; */
+  
+   
+}
+
+.btn-1{
+    height: 30px;
+   font-size: 15px;
+   position: absolute;
+   right: 100px;
+   margin-top: 7px;
+   background-color: #00cc99;
+   border: none;
+   outline: none;
+   border-radius: 2px;
+   cursor: pointer;
+   color: #fff;
+   padding-right: 10px;
+   padding-left: 10px;
+   margin-left: 10px;
+
+}
+
+.btn-1:hover, .btn-1:focus, .btn-1:active{
+    background-color: #fff;
+    color:#00cc99
+}
+
+
+.Main-footer{
+    background-color: #333333;
+    
+}
+
+.table{
+    display: inline-block;
+    margin-left: 5px;
+    color: #666666;
+    cursor: pointer;
+}
+
+.clr{
+    color: #666;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.Main-footer a{
+    margin-top: 35px;
+}
+
+.icon-list1 li{
+    display: inline-block;
+    margin-right: 20px;
+    color: #666;
+
+
+}
+
+.scroller {
+    color: #666;
+    text-align: right;
+    position: absolute;
+
+}
+.scroller i{
+    color : #fff;
+    position: relative;
+    left: 1200px;
+    top: 30px;
+    border: 2px solid #333;
+    font-size: 25px;
+    background-color: #666;
+    cursor:pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  
+
+   
+
+
+}
+
+
